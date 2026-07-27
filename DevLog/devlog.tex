@@ -215,7 +215,7 @@ First, using the factorization formulation shown in equation \ref{factorization}
     \label{logformulation}
 \end{equation}
 
-Since log is a monotonically increasing function, we can work with the log function when counting. The idea is, if we can find some value $X$ such that there are at least 4 trillion ugly numbers less than it, we can use that to narrow down an area where the number lives, and then generate the sequence there to get the exact answer. First, for some number of $X$, we can compare the logs to find the highest exponents that result in answers still below $X$. 
+Since log is a monotonically increasing function, we can work with the log function when counting. The idea is, if we can find some value $X$ such that there are at least 4 billion ugly numbers less than it, we can use that to narrow down an area where the number lives, and then generate the sequence there to get the exact answer. First, for some number of $X$, we can compare the logs to find the highest exponents that result in answers still below $X$. 
 
 \begin{equation}
     \alpha log(2) + \beta log(3) + \gamma log(5) \leq X
@@ -279,7 +279,7 @@ For the 3 stated problems, the answers I came up with are:
 \end{equation}
 
 \begin{equation}
-    N_{4\times 10^{12}} = 2^{16,348} 3^{16,503} 5^{873}
+    N_{4,000,000,000} = 2^{375} 3^{2264} 5^{210}
 \end{equation}
 
 \newpage
@@ -403,7 +403,7 @@ There is a lot still to be done with this code, it's only a starting point.
 
 For fun, since our predictive algorithm is not memory limited, let's predict the 4 trillionth entry as well. Really put the algorithm through its paces. This is just a bonus, beyond requirements. \newline
 
-Running the predictive algorithm on 4 billion yields: 
+Running the predictive algorithm on 4 trillion yields: 
 
 \begin{equation}
     N_{4\times 10^{12}} = 2^{16,348} 3^{16,503} 5^{873}
